@@ -1,0 +1,472 @@
+{
+  "results": [
+    {
+      "backdrop_path": "/wcKFYIiVDvRURrzglV9kGu7fpfY.jpg",
+      "genre": [
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "id": 453395,
+      "original_title": "Doctor Strange in the Multiverse of Madness",
+      "overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "popularity": 9411.64,
+      "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+      "release_date": "2022-05-04",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "vote_average": 7.5,
+      "vote_count": 3956,
+      "cast": [
+        {
+          "id": "71580",
+          "photo_path": "/fBEucxECxGLKVHBznO0qHtCGiMO.jpg",
+          "name": "Benedict Cumberbatch"
+        },
+        {
+          "id": "550843",
+          "photo_path": "/wIU675y4dofIDVuhaNWPizJNtep.jpg",
+          "name": "Elizabeth Olsen"
+        },
+        {
+          "id": "5294",
+          "photo_path": "/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg",
+          "name": "Chiwetel Ejiofor"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/nmGWzTLMXy9x7mKd8NKPLmHtWGa.jpg",
+      "genre": [
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "id": 438148,
+      "original_title": "Minions: The Rise of Gru",
+      "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+      "popularity": 4455.931,
+      "poster_path": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+      "release_date": "2022-06-29",
+      "title": "Minions: The Rise of Gru",
+      "vote_average": 8,
+      "vote_count": 89,
+      "cast": [
+        {
+          "id": "4495",
+          "photo_path": "/dzJtsLspH5Bf8Tvw7OQC47ETNfJ.jpg",
+          "name": "Steve Carell"
+        },
+        {
+          "id": "124747",
+          "photo_path": "/5HojYPP34c4agydy7D90apCMNHn.jpg",
+          "name": "Pierre Coffin"
+        },
+        {
+          "id": "59919",
+          "photo_path": "/fJ9oOcEeBzDT4hHFh0GNogV6l7l.jpg",
+          "name": "Russell Brand"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/t0mwKhUDa62hdhdKSsN4xMfhY5Z.jpg",
+      "genre": [
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "id": 626735,
+      "original_title": "Dog",
+      "overview": "An army ranger and his dog embark on a road trip along the Pacific Coast Highway to attend a friend's funeral.",
+      "popularity": 2522.163,
+      "poster_path": "/rkpLvPDe0ZE62buUS32exdNr7zD.jpg",
+      "release_date": "2022-02-17",
+      "title": "Dog",
+      "vote_average": 7.5,
+      "vote_count": 543,
+      "cast": [
+        {
+          "id": "38673",
+          "photo_path": "/bhTmp6FA8fOQnGlNk75tdmj2bpu.jpg",
+          "name": "Channing Tatum"
+        },
+        {
+          "id": "209",
+          "photo_path": "/2FsPAoatMkUZ7khJ9r4Fa7ZxQzS.jpg",
+          "name": "Jane Adams"
+        },
+        {
+          "id": "135352",
+          "photo_path": "/voSs3NTtgBHZRO4yCqQxwMhEngc.jpg",
+          "name": "Kevin Nash"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/QOMBHUrMCTw6nugUsGQdLKYxr8.jpg",
+      "genre": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "id": 507086,
+      "original_title": "Jurassic World Dominion",
+      "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history’s most fearsome creatures.",
+      "popularity": 2298.022,
+      "poster_path": "/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+      "release_date": "2022-06-01",
+      "title": "Jurassic World Dominion",
+      "vote_average": 6.6,
+      "vote_count": 928,
+      "cast": [
+        {
+          "id": "73457",
+          "photo_path": "/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg",
+          "name": "Chris Pratt"
+        },
+        {
+          "id": "18997",
+          "photo_path": "/qQX1rhQaJ1G8eMG2RknFKiXfNRc.jpg",
+          "name": "Bryce Dallas Howard"
+        },
+        {
+          "id": "4784",
+          "photo_path": "/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
+          "name": "Laura Dern"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/uzZAef6uVqvhY4nLWqVvaq3DQeJ.jpg",
+      "genre": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "id": 975714,
+      "original_title": "Collision",
+      "overview": "Over the course of one fateful day, a corrupt businessman and his socialite wife race to save their daughter from a notorious crime lord.",
+      "popularity": 2346.919,
+      "poster_path": "/4zsihgkxMZ7MrflNCjkD3ySFJtc.jpg",
+      "release_date": "2022-06-16",
+      "title": "Collision",
+      "vote_average": 6,
+      "vote_count": 58,
+      "cast": [
+        {
+          "id": "37093",
+          "photo_path": "/2Ev4ekSdyrdzfO4RStIfy8ArcsP.jpg",
+          "name": "Langley Kirkwood"
+        },
+        {
+          "id": "136296",
+          "photo_path": "/242z5k2QUkkwyrNYXjKvK8q4eFM.jpg",
+          "name": "Diane Greser "
+        },
+        {
+          "id": "3549292",
+          "photo_path": "/etyAnLwHFUsfgctkVY45dEcXc0s.jpg",
+          "name": "Bonko Cosmo Khoza"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/gG9fTyDL03fiKnOpf2tr01sncnt.jpg",
+      "genre": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "id": 526896,
+      "original_title": "Morbius",
+      "overview": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+      "popularity": 2280.99,
+      "poster_path": "/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
+      "release_date": "2022-03-30",
+      "title": "Morbius",
+      "vote_average": 6.5,
+      "vote_count": 1949,
+      "cast": [
+        {
+          "id": "7499",
+          "photo_path": "/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg",
+          "name": "Jared Leto"
+        },
+        {
+          "id": "136532",
+          "photo_path": "/xr2GSp8Pm6fT5VGm0I9tsWVcZ8q.jpg",
+          "name": "Matt Smith"
+        },
+        {
+          "id": "1371297",
+          "photo_path": "/jUGWrJfUwhOQCUEnWR0CVNkNH08.jpg",
+          "name": "Adria Arjona"
+        }
+      ],
+      "movie_type": "Upcoming"
+    },
+    {
+      "backdrop_path": "/1Ds7xy7ILo8u2WWxdnkJth1jQVT.jpg",
+      "genre": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "id": 752623,
+      "original_title": "The Lost City",
+      "overview": "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
+      "popularity": 2237.554,
+      "poster_path": "/neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
+      "release_date": "2022-03-24",
+      "title": "The Lost City",
+      "vote_average": 6.8,
+      "vote_count": 1414,
+      "cast": [
+        {
+          "id": "18277",
+          "photo_path": "/u2tnZ0L2dwrzFKevVANYT5Pb1nE.jpg",
+          "name": "Sandra Bullock"
+        },
+        {
+          "id": "38673",
+          "photo_path": "/bhTmp6FA8fOQnGlNk75tdmj2bpu.jpg",
+          "name": "Channing Tatum"
+        },
+        {
+          "id": "1371297",
+          "photo_path": "/f9WKorjfanW4PxTxhjRvHtCmfKf.jpg",
+          "name": "Daniel Radcliffe"
+        }
+      ],
+      "movie_type": "NowPlaying"
+    },
+    {
+      "backdrop_path": "/vjnLXptqdxnpNJer5fWgj2OIGhL.jpg",
+      "genre": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "id": 818397,
+      "original_title": "Memory",
+      "overview": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
+      "popularity": 2083.102,
+      "poster_path": "/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
+      "release_date": "2022-04-28",
+      "title": "Memory",
+      "vote_average": 7.3,
+      "vote_count": 453,
+      "cast": [
+        {
+          "id": "3896",
+          "photo_path": "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
+          "name": "Liam Neeson"
+        },
+        {
+          "id": "529",
+          "photo_path": "/vTqk6Nh3WgqPubkS23eOlMAwmwa.jpg",
+          "name": "Guy Pearce"
+        },
+        {
+          "id": "1371819",
+          "photo_path": "/gxWHVyNsctpLUOSfbTWjNXxgrDF.jpg",
+          "name": "Taj Atwal"
+        }
+      ],
+      "movie_type": "NowPlaying"
+    },
+    {
+      "backdrop_path": "/ta17TltHGdZ5PZz6oUD3N5BRurb.jpg",
+      "genre": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "id": 924482,
+      "original_title": "The Ledge",
+      "overview": "A rock climbing adventure between two friends turns into a terrifying nightmare. After Kelly captures the murder of her best friend on camera, she becomes the next target of a tight-knit group of friends who will stop at nothing to destroy the evidence and anyone in their way. Desperate for her safety, she begins a treacherous climb up a mountain cliff and her survival instincts are put to the test when she becomes trapped with the killers just 20 feet away.",
+      "popularity": 3054.675,
+      "poster_path": "/AjhOjyZYWlOIUu30qifMxRpPAVi.jpg",
+      "release_date": "2022-02-18",
+      "title": "The Ledge",
+      "vote_average": 6.3,
+      "vote_count": 30,
+      "cast": [
+        {
+          "id": "1197948",
+          "photo_path": "/cRG4tFdI2jaT5GW9MiTWx5jDMwj.jpg",
+          "name": "Brittany Ashworth"
+        },
+        {
+          "id": "1173231",
+          "photo_path": "/mxbN5DgsT1YMFaEo7FZ4uMAJ14b.jpg",
+          "name": "Ben Lamb"
+        },
+        {
+          "id": "2931841",
+          "photo_path": "/guWHJxPHS2warOt47R73SE2VEIN.jpg",
+          "name": "Louis Boyer"
+        }
+      ],
+      "movie_type": "NowPlaying"
+    },
+    {
+      "backdrop_path": "/qp8qKiP7Q7zK4z3LItwWMHfV9kJ.jpg",
+      "genre": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "id": 764835,
+      "original_title": "The Desperate Hour",
+      "overview": "A woman desperately races to save her child after police place her hometown on lockdown due to an active shooter incident.",
+      "popularity": 1610.642,
+      "poster_path": "/u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg",
+      "release_date": "2021-09-12",
+      "title": "The Desperate Hour",
+      "vote_average": 6.1,
+      "vote_count": 158,
+      "cast": [
+        {
+          "id": "3489",
+          "photo_path": "/5s6UE6VjYx5TBDvyFk4vfOdS9GR.jpg",
+          "name": "Naomi Watts"
+        },
+        {
+          "id": "1558012",
+          "photo_path": "/fCgYHfuuEDLWVPZHuFxizVvD15G.jpg",
+          "name": "Colton Gobbo"
+        },
+        {
+          "id": "3086855",
+          "photo_path": "/aFS1mmANQ5MOV7tI6pj39F6p6k4.jpg",
+          "name": "Sierra Maltby"
+        }
+      ],
+      "movie_type": "NowPlaying"
+    },
+    {
+      "backdrop_path": "/jVGHRpSgtE2MQLJhC5q4lXmPNQW.jpg",
+      "genre": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "id": 960258,
+      "original_title": "Shark Bait",
+      "overview": "A group of friends enjoying a weekend steal a couple of jetskis racing them out to sea, ending up in a horrific head-on collision. They struggle to find a way home with a badly injured friend while from the waters below predators lurk.",
+      "popularity": 1636.371,
+      "poster_path": "/mVVU9zC8snNHlcqYONY2HOsh9ob.jpg",
+      "release_date": "2022-05-13",
+      "title": "Shark Bait",
+      "vote_average": 6.9,
+      "vote_count": 66,
+      "cast": [
+        {
+          "id": "1383391",
+          "photo_path": "/xOTgpttfytr7WJ2Okk8mia5u2qf.jpg",
+          "name": "Holly Earl"
+        },
+        {
+          "id": "3498317",
+          "photo_path": "/7cb4KCineeEBmWFVfLE25DBaQVM.jpg",
+          "name": "Catherine Amy Hannay"
+        },
+        {
+          "id": "121546",
+          "photo_path": "/5L6rLqxFEM2ycYNnBCgfhIprzAI.jpg",
+          "name": "Manuel Cauchi"
+        }
+      ],
+      "movie_type": "NowPlaying"
+    }
+  ]
+}

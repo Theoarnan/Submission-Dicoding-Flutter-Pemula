@@ -1,13 +1,6 @@
-// ignore_for_file: prefer_interpolation_to_compose_strings, avoid_print
-
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:submission_bmafup_movie_dicoding_app/helper/utils.dart';
-import 'package:submission_bmafup_movie_dicoding_app/model/res_movie.dart';
-import 'package:submission_bmafup_movie_dicoding_app/presentation/main_page.dart';
 import 'package:submission_bmafup_movie_dicoding_app/presentation/splash_page.dart';
 
 void main() {

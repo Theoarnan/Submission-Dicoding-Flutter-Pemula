@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 
 class ImageComponent extends StatelessWidget {
+  final bool isDetailPage;
   final String imageUrl;
-  const ImageComponent({Key? key, required this.imageUrl}) : super(key: key);
+  const ImageComponent(
+      {Key? key, required this.imageUrl, this.isDetailPage = false})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(8.0),
+      borderRadius: BorderRadius.circular(isDetailPage ? 0 : 8.0),
       child: FadeInImage(
         image: NetworkImage(imageUrl),
         placeholder: const AssetImage("assets/loading.gif"),

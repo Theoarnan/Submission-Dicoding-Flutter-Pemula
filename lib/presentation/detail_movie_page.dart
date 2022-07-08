@@ -44,6 +44,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                     height: MediaQuery.of(context).size.height / 3.94,
                     width: double.infinity,
                     child: ImageComponent(
+                        isDetailPage: true,
                         imageUrl:
                             "${ConstantsHelper.baseURLBanner}${widget.detailMovie.backdropPath}"),
                   ),

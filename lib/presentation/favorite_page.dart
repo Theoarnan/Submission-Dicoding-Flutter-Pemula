@@ -71,12 +71,19 @@ class _FavoritePageState extends State<FavoritePage>
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Icon(Icons.arrow_circle_up),
+                        Icon(
+                          Icons.arrow_circle_up,
+                          size: 16,
+                        ),
                         SizedBox(width: 6),
-                        Text(
-                          "Up Coming",
-                          style: TextStyle(
-                            fontSize: 18,
+                        Expanded(
+                          child: Text(
+                            "Up Coming",
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
                           ),
                         ),
                       ],
@@ -85,12 +92,19 @@ class _FavoritePageState extends State<FavoritePage>
                         icon: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: const [
-                        Icon(Icons.arrow_circle_down),
+                        Icon(
+                          Icons.arrow_circle_down,
+                          size: 16,
+                        ),
                         SizedBox(width: 6),
-                        Text(
-                          "Now Playing",
-                          style: TextStyle(
-                            fontSize: 18,
+                        Expanded(
+                          child: Text(
+                            "Now Playing",
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 15,
+                            ),
                           ),
                         ),
                       ],

@@ -5,16 +5,11 @@ import 'package:submission_bmafup_movie_dicoding_app/helper/constants_helper.dar
 import 'package:submission_bmafup_movie_dicoding_app/model/movie_model.dart';
 import 'package:submission_bmafup_movie_dicoding_app/presentation/components/image_component.dart';
 
-class DetailMoviePage extends StatefulWidget {
+class DetailMoviePage extends StatelessWidget {
   final MovieModel detailMovie;
   const DetailMoviePage({Key? key, required this.detailMovie})
       : super(key: key);
 
-  @override
-  State<DetailMoviePage> createState() => _DetailMoviePageState();
-}
-
-class _DetailMoviePageState extends State<DetailMoviePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +41,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                     child: ImageComponent(
                         isDetailPage: true,
                         imageUrl:
-                            "${ConstantsHelper.baseURLBanner}${widget.detailMovie.backdropPath}"),
+                            "${ConstantsHelper.baseURLBanner}${detailMovie.backdropPath}"),
                   ),
                 ),
                 Positioned(
@@ -74,7 +69,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                     height: 150,
                     child: ImageComponent(
                         imageUrl:
-                            "${ConstantsHelper.baseURLPoster}${widget.detailMovie.posterPath}"),
+                            "${ConstantsHelper.baseURLPoster}${detailMovie.posterPath}"),
                   ),
                   const SizedBox(
                     width: 8,
@@ -90,7 +85,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                           padding: const EdgeInsets.symmetric(vertical: 8),
                           width: MediaQuery.of(context).size.width - 200,
                           child: Text(
-                            widget.detailMovie.originalTitle!,
+                            detailMovie.originalTitle!,
                             maxLines: 3,
                             overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.left,
@@ -103,7 +98,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: <Widget>[
                             Text(
-                              widget.detailMovie.voteAverage.toString(),
+                              detailMovie.voteAverage.toString(),
                               style: const TextStyle(
                                   // color: Colors.white,
                                   fontSize: 14.0,
@@ -113,9 +108,9 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                               width: 10.0,
                             ),
                             RatingBar.builder(
-                              initialRating: double.tryParse(
-                                      widget.detailMovie.voteAverage!)! /
-                                  2,
+                              initialRating:
+                                  double.tryParse(detailMovie.voteAverage!)! /
+                                      2,
                               minRating: 1,
                               direction: Axis.horizontal,
                               allowHalfRating: true,
@@ -151,7 +146,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 2.0),
                               child: Text(
-                                widget.detailMovie.voteCount!,
+                                detailMovie.voteCount!,
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.left,
@@ -179,7 +174,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 2.0),
                               child: Text(
-                                widget.detailMovie.releaseDate!,
+                                detailMovie.releaseDate!,
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                                 textAlign: TextAlign.left,
@@ -210,7 +205,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    widget.detailMovie.overview!,
+                    detailMovie.overview!,
                     textAlign: TextAlign.justify,
                     style: TextStyle(
                         fontSize: 16,
@@ -231,7 +226,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                   SizedBox(
                     height: 30,
                     child: ListView.builder(
-                      itemCount: widget.detailMovie.genre!.length,
+                      itemCount: detailMovie.genre!.length,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
@@ -243,8 +238,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                           padding: const EdgeInsets.symmetric(
                               horizontal: 20, vertical: 1),
                           child: Center(
-                              child: Text(
-                                  widget.detailMovie.genre![index]!.genreName!,
+                              child: Text(detailMovie.genre![index]!.genreName!,
                                   style: const TextStyle(
                                       fontSize: 14,
                                       color: Colors.white,
@@ -273,7 +267,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                   SizedBox(
                     height: 120,
                     child: ListView.builder(
-                      itemCount: widget.detailMovie.cast!.length,
+                      itemCount: detailMovie.cast!.length,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
@@ -290,7 +284,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                                 height: 70.0,
                                 child: ImageComponent(
                                     imageUrl:
-                                        "${ConstantsHelper.baseURLCast}${widget.detailMovie.cast![index]!.photo}"),
+                                        "${ConstantsHelper.baseURLCast}${detailMovie.cast![index]!.photo}"),
                               ),
                               const SizedBox(
                                 height: 10.0,
@@ -298,7 +292,7 @@ class _DetailMoviePageState extends State<DetailMoviePage> {
                               SizedBox(
                                 width: 300,
                                 child: Text(
-                                  widget.detailMovie.cast![index]!.nameCast!,
+                                  detailMovie.cast![index]!.nameCast!,
                                   maxLines: 1,
                                   overflow: TextOverflow.ellipsis,
                                   textAlign: TextAlign.center,

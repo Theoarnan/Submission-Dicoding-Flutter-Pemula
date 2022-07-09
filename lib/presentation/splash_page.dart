@@ -2,25 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:submission_bmafup_movie_dicoding_app/helper/constants_helper.dart';
 import 'package:submission_bmafup_movie_dicoding_app/presentation/main_page.dart';
 
-class SplashPage extends StatefulWidget {
+class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
 
   @override
-  State<SplashPage> createState() => _SplashPageState();
-}
-
-class _SplashPageState extends State<SplashPage> {
-  @override
-  void initState() {
-    super.initState();
-    _navigatorToHome();
-  }
-
-  // Function _navigatorToHome to navigate splash page to home page
-  // After delayed
-  _navigatorToHome() async {
-    var duration = const Duration(seconds: 3);
-    return Future.delayed(duration, () {
+  Widget build(BuildContext context) {
+    Future.delayed(const Duration(seconds: 3)).then((value) {
       Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(
@@ -29,10 +16,6 @@ class _SplashPageState extends State<SplashPage> {
         (route) => false,
       );
     });
-  }
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ConstantsHelper.kBackSplash,
       body: Column(
